@@ -1,9 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
-ll main()
-{
-    ll a;
-    cin>>a;
-    cout<<a;
-    return 0;
+#define ll long long
+int main(){
+    // interesting number
+    double a = 1, b = INFINITY;
+    cout << a << " " << b << endl;
+    cout<<(a>b)<<(a<b)<<endl;
+    return 0; 
 }
